@@ -1,7 +1,12 @@
 # unmagic
 
-Unmagic can reveal the file type based on magic numbers searched in head and tail of file. It uses `signatures.json` as a database which is formatted this way :
+Unmagic reveals the file type based on magic numbers.
 
+<p align="center"> 
+  <img src="https://raw.githubusercontent.com/valkheim/unmagic/readme/preview.gif"/>
+</p>
+
+It uses `signatures.json` as a database which is formatted this way :
 
 ```
 [
@@ -17,4 +22,3 @@ Unmagic can reveal the file type based on magic numbers searched in head and tai
   }
 ]
 ```
-
